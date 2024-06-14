@@ -36,6 +36,14 @@ Reasons for unit tests:
 - Provides confidence
 
 TDD Process
- - write test
- - run test and see it fail
- - write code to pass test
+ - Write test
+ - Run test and see it fail
+ - Write code to pass test
+
+
+## Linting and Testing
+
+Flake8 is a tool that checks for PEP8 compliance and other linting issues.
+Tell flake8 to ignore .venv and migrations folder by creating a .flake8 file in the root of the project.
+
+- `docker-compose run --rm app sh -c "flake8"`
