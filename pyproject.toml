@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "recipe-api"
+version = "0.1.0"
+description = ""
+authors = ["Chat Sumlin <chat@chatsumlin.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "~3.2.4"
+djangorestframework = "~3.12.4"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^7.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.9"]
+build-backend = "poetry.core.masonry.api"

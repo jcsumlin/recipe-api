@@ -1,0 +1,15 @@
+[flake8]
+exclude = 
+    .venv,
+    .git,
+    .tox,
+    dist,
+    doc,
+    *lib/python*,
+    *egg,
+    build,
+    migrations,
+    __pycache__,
+    manage.py,
+    settings.py,
+    
